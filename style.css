@@ -1,0 +1,94 @@
+img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  body {
+    font-family: sans-serif;
+    background-color: #1e2328;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h1,
+  h2,
+  p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: #101112;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 650px;
+    border: #f5c311 2px solid;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: black;
+    border: black 2px;
+  }
+  
+  h1,
+  h2 {
+    font-family: serif;
+    color: #f5c311;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flavor,
+  .dessert {
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%;
+  }
+  a {
+    text-decoration: none;
+    color: yellow;
+  }
+  p {
+    color: white;
+  }
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    .menu {
+      width: 70%;
+      padding: 10px;
+    }
+    .flavor,
+    .dessert,
+    .price {
+      width: 100%;
+    }
+  }
